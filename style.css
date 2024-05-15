@@ -1,0 +1,353 @@
+
+.first{
+    text-align: center;
+    background-color: rgb(167, 25, 202);
+    font-size: 60px;
+}
+
+body{
+    background-color: black;
+}
+
+.first:hover{
+    color: white;
+    background-color: rgba(82, 13, 231, 0.711);
+    box-shadow: inset 5px 5px 5px 0px pink;
+    transition: 1s linear;
+}
+
+.talk_one{
+    font-size: 40px;
+}
+
+.talk_two{
+    font-size: 40px;
+}
+
+.talk_three{
+    font-size: 40px;
+}
+
+.first_article{
+    position: absolute;
+    left: -405px;
+    top: 80px;
+    background-color: aquamarine;
+    border: 2px solid rgb(15, 156, 109);
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 2px;
+}
+
+.first_article:hover{
+    transform: translateX(400px);
+    transition: 1s linear;
+}
+
+.second_article{
+    position: absolute;
+    left: -315px;
+    top: 160px;
+    background-color: rgb(79, 137, 229);
+    border: 2px solid rgb(15, 22, 156);
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 2px;
+}
+
+.second_article:hover{
+    transform: translateX(310px);
+    transition: 1s linear;
+}
+
+.add{
+    position: fixed;
+    bottom: 0px;
+    background-color: rgba(55, 144, 188, 0.821);
+    z-index: 1;
+}
+
+.add:hover{
+    color: aliceblue;
+    background-color: brown;
+    transition: 1s linear;
+    box-shadow: inset 5px 5px 5px 0px rgb(243, 63, 63);
+}
+
+.add1{
+    font-size: 37px;
+}
+
+main{
+    background-color: rgba(57, 24, 90, 0.752);
+    color: aliceblue;
+    border: 1px solid rgba(25, 11, 39, 0.752);
+    border-radius: 20px;
+    font-size: 17px;
+    opacity: 1;
+}
+
+main:hover{
+     background-color: rgba(59, 42, 76, 0.855);
+    color: aliceblue;
+    border: 1px solid rgba(59, 42, 76, 0.855);
+    border-radius: 20px;
+    box-shadow:inset 5px 5px 5px 0px gray;
+    transition: 1s linear;
+}
+
+html{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvomO_m1IrmQiT21VTlEuoIEMB10vqso0H59XAzgBQ9w&s);
+}
+
+.carone{
+    font-size: 25px;
+    text-align: center;
+}
+
+.carone:hover{
+    color: aqua;
+    transition: 1s linear;
+}
+
+.modal{
+    background-color: white;
+    margin: 10px auto;
+    max-width: 1000px;
+    height: 500px;
+    padding: 10px;
+    text-align: center;
+}
+
+.images{
+    margin-top: 10px;
+    position: relative;
+    width: 256px;
+    height: 256px;
+}
+
+[class*="slide-"] {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    transition: opacity linear 0.5s;
+}
+
+.to-one:checked ~ .images .slide-one,
+.to-two:checked ~ .images .slide-two,
+.to-three:checked ~ .images .slide-three{
+    opacity: 1.0;
+}
+
+.slide-one{
+    width: 1000px;
+    height: 500px;
+}
+
+.slide-two{
+    width: 1000px;
+    height: 500px;
+}
+
+.slide-three{
+    width: 1000px;
+    height: 500px;
+}
+
+.talk_one:hover{
+    color: rgb(52, 128, 204);
+    transition: 1s linear;
+}
+
+.talk_two:hover{
+    color: rgb(75, 180, 145);
+    transition: 1.5s linear;
+}
+
+.talk_three:hover{
+    color: rgb(143, 86, 197);
+    transition: 2s linear;
+}
+
+.talk{
+    text-align: center;
+}
+
+.hello{
+    text-align: center;
+}
+
+.modal_two{
+    background-color: white;
+    margin: 10px auto;
+    max-width: 1000px;
+    height: 500px;
+    padding: 10px;
+    text-align: center;
+}
+
+.images_sigma{
+    margin-top: 10px;
+    position: relative;
+    width: 256px;
+    height: 256px;
+}
+
+[class*="slidee-"] {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    transition: opacity linear 0.5s;
+}
+
+.to-four:checked ~ .images_sigma .slidee-four,
+.to-five:checked ~ .images_sigma .slidee-five,
+.to-six:checked ~ .images_sigma .slidee-six{
+    opacity: 1.0;
+}
+
+.slidee-four{
+    width: 1000px;
+    height: 500px;
+}
+
+.slidee-five{
+    width: 1000px;
+    height: 500px;
+}
+
+.slidee-six{
+    width: 1000px;
+    height: 500px;
+}
+
+.caretwo{
+    font-size: 25px;
+    text-align: center;
+}
+
+.caretwo:hover{
+    color: rgb(125, 21, 120);
+    transition: 1s linear;
+}
+
+.carethree{
+    font-size: 25px;
+    text-align: center;
+}
+
+.carethree:hover{
+    color: rgb(54, 194, 161);
+    transition: 1s linear;
+}
+
+.div{
+    text-align: center;
+}
+
+.i_dont_know{
+    font-size: 40px;
+}
+
+.i_dont_know2{
+    font-size: 40px;
+}
+
+footer{
+    background-color: rgb(17, 65, 65);
+}
+
+footer:hover{
+    background-color: rgb(29, 105, 105);
+    box-shadow:inset 5px 5px 5px 0px aqua ;
+    transition: 1s linear;
+}
+
+.ending{
+    font-size: 50px;
+    text-align: center;
+}
+
+.ending:hover{
+    color: rgb(40, 38, 38);
+    transition: 0.5s linear;
+}
+
+.ending2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.ending2:hover{
+    color: rgb(31, 31, 62);
+    transition: 0,5s linear;
+}
+
+.radio-input {
+    display: flex;
+    scale: 0.15;
+    transform: rotate(180deg);
+  }
+  
+  .star {
+    margin: 1em;
+    appearance: none;
+    --color: white;
+    border-left: 6.4721359549996em solid transparent;
+    border-right: 6.4721359549996em solid transparent;
+    border-bottom: 4em solid var(--color);
+    transform: rotate(0deg);
+    cursor: pointer;
+  }
+  
+  .star:before {
+    content: "";
+    border-left: 6.4721359549996em solid transparent;
+    border-right: 6.4721359549996em solid transparent;
+    border-top: 4em solid var(--color);
+    position: absolute;
+    left: -6.4721359549996em;
+    transform: rotate(108deg);
+  }
+  
+  .star:after {
+    content: "";
+    border-left: 6.4721359549996em solid transparent;
+    border-right: 6.4721359549996em solid transparent;
+    border-top: 4em solid var(--color);
+    position: absolute;
+    left: -6.4721359549996em;
+    transform: rotate(253deg);
+  }
+  
+  .radio-input > .star:hover ~ .star,
+  .radio-input > .star:hover,
+  .radio-input > .star:checked ~ .star,
+  .radio-input > .star:checked {
+    --color: yellow;
+  }
+  
+  .radio-input > .star:checked ~ .star,
+  .radio-input > .star:checked {
+    animation: rotate 0.5s linear forwards;
+    transform: rotate(360deg);
+    transition: transform 0.3s;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      scale: 1.5;
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
